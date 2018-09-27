@@ -24,7 +24,7 @@ namespace GGTalk
 
             this.Text = string.Format("您好，{0}（{1}）",name, id);
             this.pnlImgTx.BackgroundImage = title;
-            this.skinLabel2.Text = string.Format("欢迎使用 GGTalk 2016 \n\n可在广域网运行的QQ高仿版" ,GlobalResourceManager.SoftwareName);
+            this.skinLabel2.Text = string.Format("欢迎使用 PP2018 \n\n QQ高仿版" ,GlobalResourceManager.SoftwareName);
         }
 
         //窗口加载时
@@ -49,7 +49,7 @@ namespace GGTalk
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("http://www.cnblogs.com/justnow");
+            Process.Start("http://www.tck.com");
         }
 
         private void skinButtom1_Click(object sender, EventArgs e)

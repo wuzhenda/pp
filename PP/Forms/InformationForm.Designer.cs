@@ -89,7 +89,7 @@
             this.skinLabel2.Name = "skinLabel2";
             this.skinLabel2.Size = new System.Drawing.Size(185, 57);
             this.skinLabel2.TabIndex = 22;
-            this.skinLabel2.Text = "GGTalk";
+            this.skinLabel2.Text = "PP2018";
             // 
             // skinButtom1
             // 
@@ -131,10 +131,10 @@
             this.linkLabel1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.linkLabel1.Location = new System.Drawing.Point(45, 118);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(197, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(119, 17);
             this.linkLabel1.TabIndex = 128;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "http://www.cnblogs.com/justnow";
+            this.linkLabel1.Text = "http://www.tck.com";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 

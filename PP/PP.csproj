@@ -75,9 +75,6 @@
     <Reference Include="ESFramework">
       <HintPath>lib\ESFramework.dll</HintPath>
     </Reference>
-    <Reference Include="GGTalk.Core">
-      <HintPath>lib\GGTalk.Core.dll</HintPath>
-    </Reference>
     <Reference Include="OMCS">
       <HintPath>lib\OMCS.dll</HintPath>
     </Reference>
@@ -725,6 +722,9 @@
     <None Include="Resources\Accept.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>xcopy  /s /y "$(projectDir)\Module\*" "$(TargetDir)"</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
